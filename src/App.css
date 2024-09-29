@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'KayPhoDu';
+  src: url('KayPhoDu-Regular.ttf');
+}
+
+
+body {
+  font-family: KayPhoDu;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(253,250,241,255);
+}
+
+.product-png {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.product-png img {  
+  padding: 10px;
+  transform: rotate(0deg);
+  width: 50%;
+}
+
+.brentwood-group {
+  display: flex;
+  background-color: aqua;
+}
+
+.brentwood-group p:first-of-type {
+  font-size: 5rem;
+  background-color: azure;
+}
+
+.brentwood-group p:nth-of-type(2) {
+  font-size: 18px;
+  background-color: green; 
+}
