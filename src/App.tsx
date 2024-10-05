@@ -1,8 +1,5 @@
-import { useState } from 'react'
 import Header from '../src/components/header'
 import Footer from '../src/components/footer'
-import StockPhoto1 from '../src/pngs/AdobeStock_292966064_Preview.jpeg'
-import StockPhoto2 from '../src/pngs/AdobeStock_435902263_Preview.jpeg'
 import './App.css'
 
 function App() {
@@ -11,8 +8,11 @@ function App() {
     <>
       <Header />
       <div className='product-png'>
-        <img src={StockPhoto1} alt="First Image" />
-        <img src={StockPhoto2} alt="Second Image" />
+        
+      </div>
+      <div className='summary'>
+        At Brentwood Group, we provide high-quality products and reliable services to both consumers and businesses. 
+        Our expertise spans the electrical and textile industries, ensuring that we meet a diverse range of needs.
       </div>
       <Footer />
     </>

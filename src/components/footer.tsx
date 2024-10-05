@@ -1,9 +1,8 @@
-import React from 'react';
 import '../css/footer.css'
 
 const Header = () => {
   return (
-    <nav className='nav'>
+    <nav className='foot'>
         <ul>
             <li>
                 Based in California

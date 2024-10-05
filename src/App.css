@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'KayPhoDu';
-  src: url('KayPhoDu-Regular.ttf');
+  src: url('fonts/KayPhoDu-Regular.ttf');
+}
+
+@font-face {
+  font-family: AfacadFlux;
+  src: url('../fonts/afacadflux.ttf');
 }
 
 
@@ -8,7 +13,7 @@ body {
   font-family: KayPhoDu;
   margin: 0;
   padding: 0;
-  background-color: rgba(253,250,241,255);
+  background-color: #f2f1ec;
 }
 
 .product-png {
@@ -23,17 +28,9 @@ body {
   width: 50%;
 }
 
-.brentwood-group {
-  display: flex;
-  background-color: aqua;
-}
-
-.brentwood-group p:first-of-type {
-  font-size: 5rem;
-  background-color: azure;
-}
-
-.brentwood-group p:nth-of-type(2) {
-  font-size: 18px;
-  background-color: green; 
+.summary {
+  font-family: AfacadFlux;
+  font-size: 3rem;
+  padding: 20px;
+  height: 100vh;
 }
