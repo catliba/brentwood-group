@@ -6,3 +6,10 @@
     padding-left: 30%;
     padding-right: 30%;
 }
+
+@media (max-width : 650px) {
+    .about {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }

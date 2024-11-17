@@ -10,9 +10,6 @@ const Header = () => {
         </div>
         <ul>
             <li>
-                <a href="/">Pricing</a>
-            </li>
-            <li>
                 <a href="/about">About</a>
             </li>
         </ul>

@@ -19,7 +19,7 @@ body {
 .product-png {
   display: flex;
   justify-content: space-evenly;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .product-png img {  
@@ -32,5 +32,11 @@ body {
   font-family: AfacadFlux;
   font-size: 3rem;
   padding: 20px;
-  height: 100vh;
+  margin-bottom: 50vh;
+}
+
+@media (max-width : 650px) {
+  .summary {
+    font-size: 1.2rem;
+  }
 }
